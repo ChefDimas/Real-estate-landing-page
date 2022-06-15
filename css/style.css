@@ -5,7 +5,7 @@
 }
 
 html {
-    font-size: 14px;
+    font-size: 16px;
     font-family: "Poppins", sans-serif;
     color: #5a6473;
     box-sizing: border-box;
@@ -40,12 +40,12 @@ a {
 /* Header */
 
 .header {
-    padding: 2.714rem 0 2.857rem 0;
+    padding: 2.375rem 0 2.375rem 0;
     background-color: #e6f0ff;
     font-family: Poppins, sans-serif;
     font-size: inherit;
     font-weight: 500;
-    line-height: 1.5rem;
+    line-height: 1.3125rem;
     letter-spacing: 0rem;
 }
 
@@ -75,7 +75,7 @@ a {
 }
 
 .header__user-btn {
-    padding: 0.715em 1.428em;
+    padding: 0.625rem 1.25rem;
 }
 
 .btn {
@@ -98,27 +98,38 @@ a {
 
 .welcome__inner {
     display: flex;
+    justify-content: space-between;
+}
+
+.welcome__left {
+    max-width: 35rem;
+    margin-top: 5.75rem;
 }
 
 .welcome__subtitle {
     color: #687690;
     font-weight: 500;
     font-size: 1.285rem;
-    line-height: 2rem;
+    line-height: 1.6875rem;
+    padding-bottom: 0.5rem;
 }
 
 .welcome__title {
     color: #000336;
     font-weight: 700;
-    font-size: 4.571rem;
-    line-height: 5.428rem;
+    font-size: 4rem;
+    line-height: 4.75rem;
+    padding-bottom: 2rem;
 }
 
 .welcome__text {
-    font-size: 1.285rem;
-    line-height: 2.285rem;
+    font-size: 1.125rem;
+    line-height: 2rem;
+    margin-bottom: 2.5rem;
 }
 
 .welcome__btn {
-    padding: 1.07em 2.642em;
+    padding: 1rem 2.375rem;
+    font-size: 0.8125rem;
+    line-height: 1.125rem;
 }
