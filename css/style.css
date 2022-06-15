@@ -135,3 +135,46 @@ a {
 }
 
 /* Rating Section */
+
+.rating__inner {
+    padding-top: 7.625rem;
+    padding-bottom: 2.5625rem;
+}
+
+.rating__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rating__left {
+    display: grid;
+    row-gap: 1.5rem;
+}
+
+.rating__text {
+    color: #7d8589;
+    font-weight: 500;
+    line-height: 1.125rem;
+}
+
+.rating__right {
+    display: grid;
+    row-gap: 1rem;
+}
+
+.rating__stars {
+    display: flex;
+    justify-content: end;
+}
+
+.rating__stars-text {
+    color: #7d8589;
+    font-weight: 500;
+    line-height: 1.125rem;
+}
+
+.rating__companies {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4.375rem;
+}
